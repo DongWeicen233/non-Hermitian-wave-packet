@@ -21,6 +21,7 @@ please run 'OBC_gaussian.m' to get FIG. 6. Edge wave-packet dynamics
 please run 'PBC_gaussian_kxky.m' to get FIG. 8. Bulk wave-packet dynamics (I use code from line 1 to line 304 to do calculation, but it takes time. Then I save the data, so please run start from line 305, please ignore warning)
 
 If you use this code, please cite it as below: 
+
 @misc{dong2025,
       title={Non-Hermitian wave-packet dynamics and its realization within a non-Hermitian chiral cavity}, 
       author={Weicen Dong and Qing-Dong Jiang and Matteo Baggioli},
@@ -30,4 +31,5 @@ If you use this code, please cite it as below:
       primaryClass={cond-mat.mes-hall},
       url={https://arxiv.org/abs/2501.12163}, 
 }
+
 (might be published soon)
