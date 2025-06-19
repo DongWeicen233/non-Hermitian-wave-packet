@@ -302,7 +302,7 @@ sgtitle('Maximum of Gaussian wave packet')
     [K1,K2]=meshgrid(k11,k22);
     KX=K1;KY=(K1+2*K2)/sqrt(3);
 
-
+  load('PBCgaussian.mat') 
     xte=-0.3; yte=1;
 figure('Color','white')
 h1=subplot(4,2,1);pcolor(KX/2/pi,KY/2/pi,real(w)),cb=colorbar;
